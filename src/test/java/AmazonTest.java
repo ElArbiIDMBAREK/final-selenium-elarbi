@@ -28,7 +28,7 @@ public class AmazonTest {
         ProductPage productPage = homePage.closeCookiePopup()
                 .openBestsellers()
                 .openCategory(HIGH_TECH_CATEGORY) // index 19 for High Tech
-                .openProduct(2);
+                .openProduct(6);
 
         String productTitle = productPage.getProductTitle();
 
